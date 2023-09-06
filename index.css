@@ -51,3 +51,62 @@ footer{
     background-color: pink;
     height: 99px;
 }
+
+@media all and (min-width:600px){
+
+    .blue{
+        background-color: purple;
+    }
+
+    .yellow{
+        width: 25%;
+    }
+
+    .green{
+        background-color: lightblue;
+        width: 75%;
+    }
+
+    .darkgreen{
+        background-color: orange;
+        width: 25%;
+    }
+
+    .purple{
+        width: 75%;
+    }
+
+    footer{
+        background-color: lightgreen;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .yellow {
+        background-color: green;
+        width: 75%;
+    }
+
+    .green{
+        background-color: gray;
+        width: 25%;
+    }
+
+    .darkgreen {
+        width: 75%;
+    }
+
+    .purple {
+        background-color: aqua;
+        width: 25%;
+}
+
+footer{
+    background-color: purple;
+}
+
+}
+
+@media all and (min-width:992px){
+    
+}
