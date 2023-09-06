@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+}
+
+.blue{
+    background-color: blue;
+    height: 66px;
+}
+
+.flexContainer{
+    display: flex;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 162px;
+    width: 34%;
+    
+}
+
+.green{
+    background-color: green;
+    height: 162px;
+    width: 66%
+}
+
+.flexContainer2{
+    display: flex;
+}
+
+.darkgreen{
+    background-color: darkgreen;
+    height: 132px;
+    width: 66%;
+
+}
+
+.purple{
+    background-color: purple;
+    height: 132px;
+    width: 34%;
+}
+
+footer{
+    background-color: pink;
+    height: 99px;
+}
