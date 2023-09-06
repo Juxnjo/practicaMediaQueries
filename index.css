@@ -108,5 +108,82 @@ footer{
 }
 
 @media all and (min-width:992px){
+    .blue{
+        background-color: blue;
+    }
+
+    .yellow{
+        background-color: yellow;
+        width: 33%;
+    }
+
+    .green{
+        background-color: lightgreen;
+        width: 67%;
+    }
+
+    .darkgreen{
+        background-color: green;
+        width: 75%;
+    }
+
+    .purple{
+        background-color: purple;
+        width: 25%;
+    }
+
+    footer{
+        background-color: pink;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .blue{
+        background-color: purple;
+    }
+
+    .yellow{
+        width: 50%;
+    }
+
+    .orange{
+        background-color: orange;
+        width: 25%;
+    }
+
+    .green{
+        background-color: yellow;
+        width: 25%;
+    }
+
+    .darkgreen{
+        background-color: aqua;
+        width: 25%;
+    }
+
+    .red{
+        background-color: red;
+        width: 25%;
+    }
+
+    .purple{
+        background-color: aqua;
+        width: 50%;
+    }
+
+    .flexContainer3{
+        display: flex;
+    }
+
+    footer{
+        background-color: lightgreen;
+        width: 50%;
+    }
+
+    .brown{
+        background-color: brown;
+        width: 50%;
+    }
+
     
 }
